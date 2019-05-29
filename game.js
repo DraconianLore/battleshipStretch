@@ -15,7 +15,6 @@ var p2Destroyer = 'dead';
 var whosTurn = 0;
 
 
-
 const generateBoard = function(boardSize) {
 
 }
