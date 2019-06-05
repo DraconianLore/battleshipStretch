@@ -1,5 +1,3 @@
-
-
 // Ship Status
 var p1Carrier = 'dead';
 var p2Carrier = 'dead';
@@ -16,18 +14,18 @@ var whosTurn = 0;
 
 
 const generateBoard = function(boardSize) {
-
+    // generate 2 boards, 1 for the player and 1 for the enemy
 }
 
 
 
 const newGame = function(options, opponent) {
-  let sizeOfBoard = 10;
-  if (options.board) {
-    sizeOfBoard = options.board;
-  }
+    let sizeOfBoard = 10;
+    if (options.board) {
+        sizeOfBoard = options.board;
+    }
 
-  generateBoard(sizeOfBoard);
+    generateBoard(sizeOfBoard);
 
 
 }
@@ -53,4 +51,3 @@ const playTurnAI = function() {
 const showLeaderBoard = function() {
 
 }
-
